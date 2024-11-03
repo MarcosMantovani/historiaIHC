@@ -20,8 +20,16 @@ const HistoryContainer = () => {
         flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
-        width: '100%',
-        height: '100vh'
+        paddingTop: 2,
+        paddingBottom: 2,
+        width: {
+          xs: '100%',
+          sm: '100%'
+        },
+        height: {
+          xs: 'auto',
+          sm: '100vh'
+        }
       }}
       component="section"
     >
